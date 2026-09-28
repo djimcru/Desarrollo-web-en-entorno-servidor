@@ -17,30 +17,17 @@ public class CalculaNominas {
                    "12345678g",
                    "M"
            );
-
-
            empleado.altaEmpleado();
-
-
            System.out.println("Empleado dado de alta correctamente.");
-
-
            empleado.altaEmpleado("empleadosNuevos.txt");
-
-
            System.out.println(
                    "Empleados del fichero dados de alta correctamente."
            );
 
 
        } catch (DatosNoCorrectosException e) {
-
-
            System.out.println("Datos no correctos.");
-
-
        } catch (Exception e) {
-
 
            System.out.println("Error: " + e.getMessage());
        }
